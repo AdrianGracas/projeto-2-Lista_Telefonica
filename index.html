@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista Telefonica</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Caveat:wght@600&family=Indie+Flower&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="img/tel.png" alt="telefone">
+            <h1>Lista Telefonica</h1>
+        </header>
+        <form id="form-inputs">
+            <input type="text" id="Nome" required placeholder="Nome">
+            <input type="text" id="Sobrenome" required placeholder="Sobrenome">
+            <input type="number" id="DDD" required placeholder="DDD" min="00" max="99">
+            <input type="tel" id="Telefone" required placeholder="Telefone">
+            <input type="text" id="Apelido" placeholder="Apelido">
+            <button type="submit">Adicionar</button>
+            <button type="reset" class="Excluir">Excluir</button>
+        </form>
+        <table cellspacing="0" id="tabela">
+            <thead>
+                <tr>
+                    <th>
+                        <h2>Nome</h2>
+                    </th>
+                    <th>
+                        <h2>Sobrenome</h2>
+                    </th>
+                    <th>
+                        <h2>Telefone</h2>
+                    </th>
+                    <th>
+                        <h2>Apelido</h2>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+            </tbody>
+        </table>
+        <footer>
+            <h4>&copy; Todos os direitos reservados</h4>
+        </footer>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
